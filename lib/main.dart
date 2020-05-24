@@ -28,7 +28,8 @@ class _MyHomePageState extends State<MyHomePage> {
  @override
  Widget build(BuildContext context) {
    return Scaffold(
-     appBar: AppBar(title: Text('Baby Name Votes')),
+     appBar: AppBar(title: Text('Baby Name Votes'),
+     backgroundColor: Colors.grey[900]),
      body: _buildBody(context),
    );
  }
